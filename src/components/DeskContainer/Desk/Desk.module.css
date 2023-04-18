@@ -1,0 +1,22 @@
+.desk {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-areas: "i d b";
+  width: 400px;
+  background-color: aquamarine;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.id {
+  grid-area: i;
+}
+
+.desc {
+  grid-area: d;
+  display: flex;
+}
+
+.button {
+  grid-area: b;
+}
